@@ -1,15 +1,15 @@
 {
-	"name": "Andrew Nelson",
-	"logo": "",
-	
-	"username": {
-		"github": "atlamors",
-		"medium": "@--andrewnelson"
-	},
+  "name": "Sharepeace",
+  "logo": "",
 
-	"portfolio": { 
-		"forkthis": "Steal this theme! Its open-source 🥰",
-		"repo_html": "https://www.github.com/atlamors/portfolio",
-		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
-	}
+  "username": {
+    "github": "sharepeace",
+    "medium": ""
+  },
+
+  "portfolio": {
+    "forkthis": "Driving the future of app development",
+    "repo_html": "https://github.com/sharepeace",
+    "repo_api": "https://api.github.com/sharepeace"
+  }
 }
