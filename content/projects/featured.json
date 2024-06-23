@@ -6,27 +6,17 @@
     "descriptionTitle": "Transform your Space with AI.",
     "description": "Reimagine Any Home, Room, Interior, Exterior, or Garden using AI!",
     "imageOptions": [],
+    "appstoreBadgeUrl": "/img/app-store-badge.svg",
+    "googleBadgeUrl": "/img/google-play-badge.svg",
+    "appstoreUrl": "https://apps.apple.com/us/app/myspace-ai-interior-design/id6503632608",
+    "googleUrl": "https://play.google.com/store/apps/details?id=com.sharepeace.myspaceai&showAllReviews=true",
     "images": [
       {
         "key": "mock-stack",
         "hover": "right",
         "h": "1200",
         "w": "556",
-        "url": "/img/msc-mock_stack/03.png"
-      },
-      {
-        "key": "mock-stack",
-        "hover": "right",
-        "h": "1200",
-        "w": "556",
-        "url": "/img/msc-mock_stack/02.png"
-      },
-      {
-        "key": "mock-stack",
-        "hover": "left",
-        "h": "1200",
-        "w": "556",
-        "url": "/img/msc-mock_stack/01.png"
+        "url": "/img/msc-mock_stack/myspace-ai-1_complete.png"
       }
     ],
     "stack": [
@@ -45,13 +35,17 @@
     "descriptionTitle": "Generate Excel and Google Sheets Formulas 10x faster with AI.",
     "description": "You can generate complex formulas with plain natural language text",
     "imageOptions": [{ "key": "size", "value": "large" }],
+    "appstoreBadgeUrl": "/img/app-store-badge.svg",
+    "googleBadgeUrl": "/img/google-play-badge.svg",
+    "appstoreUrl": "https://apps.apple.com/us/app/chatcoin/id6460501544",
+    "googleUrl": "https://play.google.com/store/apps/details?id=com.sharepeace.conversai",
     "images": [
       {
         "key": "portfolio",
         "hover": "left",
         "h": "797",
         "w": "556",
-        "url": "/img/portfolio-mock_single.png"
+        "url": "/img/msc-mock_stack/spreadsheet-ai-1_complete.png"
       }
     ],
     "stack": [
@@ -70,13 +64,17 @@
     "descriptionTitle": "Rise up with Word of God.",
     "description": "Alarm clock app that requires you to reflect and write a Bible Verse to start your day. make this sound better.",
     "imageOptions": [{ "key": "size", "value": "large" }],
+    "appstoreBadgeUrl": "/img/app-store-badge.svg",
+    "googleBadgeUrl": "/img/google-play-badge.svg",
+    "appstoreUrl": "https://apps.apple.com/us/app/rise-bible-alarm/id6466729156",
+    "googleUrl": "https://play.google.com/store/apps/details?id=com.sharepeace.rise_alarm",
     "images": [
       {
         "key": "mock-stack",
         "hover": "right",
         "h": "1200",
         "w": "556",
-        "url": "/img/msc-mock_stack/03.png"
+        "url": "/img/msc-mock_stack/rise-alarm-2_complete.png"
       },
       {
         "key": "mock-stack",
@@ -90,7 +88,7 @@
         "hover": "left",
         "h": "1200",
         "w": "556",
-        "url": "/img/msc-mock_stack/01.png"
+        "url": "/img/msc-mock_stack/rise-alarm-1_complete.png"
       }
     ],
     "stack": [

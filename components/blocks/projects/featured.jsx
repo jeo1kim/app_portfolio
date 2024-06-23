@@ -19,6 +19,10 @@ export default function FeaturedProject({ content }, index) {
     description,
     stack,
     imageOptions,
+    appstoreBadgeUrl,
+    googleBadgeUrl,
+    appstoreUrl,
+    googleUrl,
     images,
   } = content;
 
@@ -53,14 +57,35 @@ export default function FeaturedProject({ content }, index) {
           <div className={css.header}>
             <h3 className="highlight">{project}</h3>
             <span className={css.privateOr}>
-              <i className="devicon-github-plain"></i>
-              {repo}
+              {/* <i className="devicon-chrome-plain"></i> */}
+              <a href={url} target="_blank" rel="noreferrer">
+                {url}
+              </a>
             </span>
           </div>
           <div className={css.description}>
             <p>
               <strong>{descriptionTitle}</strong> {description}
             </p>
+          </div>
+          <div className="flex flex-start gap-10">
+            <a href={googleUrl} target="_blank" rel="noreferrer">
+              <Image
+                src={googleBadgeUrl}
+                alt="Google Play Store Badge"
+                width={150}
+                height={40}
+              />
+            </a>
+            <a href={appstoreUrl} target="_blank" rel="noreferrer">
+              <Image
+                src={appstoreBadgeUrl}
+                alt="App Store Badge"
+                className="app-badge"
+                width={150}
+                height={40}
+              />
+            </a>
           </div>
           <div className={css.stackContainer}>
             <Badges
@@ -70,9 +95,9 @@ export default function FeaturedProject({ content }, index) {
               color={false}
             />
           </div>
-          <m.div variants={""} className={css.viewProject}>
+          {/* <m.div variants={""} className={css.viewProject}>
             <Icon icon={["fad", "arrow-right-to-bracket"]} />
-          </m.div>
+          </m.div> */}
         </div>
       </div>
 

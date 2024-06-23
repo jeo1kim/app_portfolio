@@ -82,7 +82,7 @@ export default function Footer() {
             target="_blank"
           >
             <h5>{settings.portfolio.forkthis}</h5>
-            <ul>
+            {/* <ul>
               <li>
                 <p>
                   <Icon icon={["fad", "code-branch"]} /> Forks:{" "}
@@ -94,7 +94,7 @@ export default function Footer() {
                   <Icon icon={["fad", "star"]} /> Stars: {gitHubInfo.stars}
                 </p>
               </li>
-            </ul>
+            </ul> */}
           </a>
         </section>
       </Container>

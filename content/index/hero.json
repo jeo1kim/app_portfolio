@@ -1,6 +1,6 @@
 {
   "intro": {
-    "start": "const Sharepeace = ( name, passion ) =>",
+    "start": "Welcome to",
     "end": "Hello, my name is",
     "speed": 60,
     "deletionSpeed": 80,
