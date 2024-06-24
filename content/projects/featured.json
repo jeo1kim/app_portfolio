@@ -1,8 +1,9 @@
 [
   {
     "project": "Myspace AI",
-    "url": "",
+    "url": "https://www.myspaceai.app/",
     "repo": "Private",
+    "logo": "/img/logos/icon_small.png",
     "descriptionTitle": "Transform your Space with AI.",
     "description": "Reimagine Any Home, Room, Interior, Exterior, or Garden using AI!",
     "imageOptions": [],
@@ -31,6 +32,7 @@
   {
     "project": "Spreadsheet AI",
     "url": "https://www.spreadsheetai.co/",
+    "logo": "/img/logos/ss-icon.png",
     "repo": "Public",
     "descriptionTitle": "Generate Excel and Google Sheets Formulas 10x faster with AI.",
     "description": "You can generate complex formulas with plain natural language text",
@@ -60,6 +62,7 @@
   {
     "project": "Rise Alarm",
     "url": "https://www.risealarm.app/",
+    "logo": "/img/logos/rise-logo.png",
     "repo": "Public",
     "descriptionTitle": "Rise up with Word of God.",
     "description": "Alarm clock app that requires you to reflect and write a Bible Verse to start your day. make this sound better.",

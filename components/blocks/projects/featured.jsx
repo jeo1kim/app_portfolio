@@ -19,6 +19,7 @@ export default function FeaturedProject({ content }, index) {
     description,
     stack,
     imageOptions,
+    logo,
     appstoreBadgeUrl,
     googleBadgeUrl,
     appstoreUrl,
@@ -55,11 +56,18 @@ export default function FeaturedProject({ content }, index) {
       <div className={css.details}>
         <div className={css.projectHeader}>
           <div className={css.header}>
+            <Image
+              src={logo}
+              alt="App Store Badge"
+              className="app-badge"
+              width={40}
+              height={40}
+            />
             <h3 className="highlight">{project}</h3>
-            <span className={css.privateOr}>
+            <span className="">
               {/* <i className="devicon-chrome-plain"></i> */}
               <a href={url} target="_blank" rel="noreferrer">
-                {url}
+                <Icon icon={["fad", "arrow-up-right-from-square"]} />
               </a>
             </span>
           </div>
