@@ -68,25 +68,28 @@ export default function FeaturedProject({ content }, index) {
               <strong>{descriptionTitle}</strong> {description}
             </p>
           </div>
-          <div className="flex flex-start gap-10">
-            <a href={googleUrl} target="_blank" rel="noreferrer">
-              <Image
-                src={googleBadgeUrl}
-                alt="Google Play Store Badge"
-                width={150}
-                height={40}
-              />
-            </a>
-            <a href={appstoreUrl} target="_blank" rel="noreferrer">
-              <Image
-                src={appstoreBadgeUrl}
-                alt="App Store Badge"
-                className="app-badge"
-                width={150}
-                height={40}
-              />
-            </a>
-          </div>
+          <m.div variants={""} className={css.viewProject}>
+            <div className="badges-container">
+              <a href={googleUrl} target="_blank" rel="noreferrer">
+                <Image
+                  src={googleBadgeUrl}
+                  alt="Google Play Store Badge"
+                  width={150}
+                  height={40}
+                />
+              </a>
+              <a href={appstoreUrl} target="_blank" rel="noreferrer">
+                <Image
+                  src={appstoreBadgeUrl}
+                  alt="App Store Badge"
+                  className="app-badge"
+                  width={150}
+                  height={40}
+                />
+              </a>
+            </div>
+            {/* <Icon icon={["fad", "arrow-right-to-bracket"]} /> */}
+          </m.div>
           <div className={css.stackContainer}>
             <Badges
               list={stack}
@@ -95,9 +98,25 @@ export default function FeaturedProject({ content }, index) {
               color={false}
             />
           </div>
-          {/* <m.div variants={""} className={css.viewProject}>
-            <Icon icon={["fad", "arrow-right-to-bracket"]} />
-          </m.div> */}
+
+          <div className={css.stackContainer}></div>
+          <div className={css.stackContainer}></div>
+
+          <style jsx>{`
+            .badges-container {
+              display: flex;
+              flex-direction: row;
+              gap: 10px;
+            }
+
+            @media (max-width: 768px) {
+              .badges-container {
+                flex-direction: row;
+                justify-content: center;
+                display: center;
+              }
+            }
+          `}</style>
         </div>
       </div>
 
